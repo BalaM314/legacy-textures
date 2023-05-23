@@ -8,4 +8,5 @@ Events.on(EventType.ContentInitEvent, cons(() => {
 	// part.moveY = -1.5;
 	// Blocks.salvo.drawer.parts.add(part);
 
+	Blocks.scatter.drawer.parts.get(0).under = true;
 }));
