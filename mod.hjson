@@ -1,0 +1,10 @@
+{
+	name: "legacy-textures"
+	displayName: "Legacy Textures"
+	author: "BalaM314"
+	description: "Restores the good old textures."
+	version: "1.0"
+	minGameVersion: "136.1"
+	dependencies: [ ]
+	hidden: true
+}
