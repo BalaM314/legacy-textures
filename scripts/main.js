@@ -1,7 +1,7 @@
-Events.on(EventType.ContentInitEvent, cons(() => {
+Events.on(EventType.ClientLoadEvent, cons(() => {
 	Blocks.salvo.drawer.parts.clear();
 	//weird hack
-	//attempting to override "salvo" results in an error because vanilla mindustry no longer has a sprite called "salvo"
+	//attempting to override "salvo" fails because vanilla mindustry no longer has a sprite called "salvo"
 	//so i must manually set salvo's texture region
 	Blocks.salvo.region = Core.atlas.find("salvo-preview");
 	//same for salvo-heat, gotta use salvo-barrel-heat instead
